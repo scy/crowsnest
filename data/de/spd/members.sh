@@ -1,12 +1,15 @@
 #!/bin/sh
 
 # Get weizenspreu’s PDF-parsed data.
+alias retexit=return
 http http://github.com/weizenspreu/crowsnest/raw/master/data/de/spd/lvs.txt > lvs.txt.new
+r="$?"
+alias retexit=exit
 
 # Don’t update on error.
-if [ "$?" -ne 0 ]; then
+if [ "$r" -ne 0 ]; then
 	rm lvs.txt.new
-	exit "$?"
+	exit "$r"
 fi
 
 # Convert from CP1252 (used by weizenspreu) to UTF-8.
