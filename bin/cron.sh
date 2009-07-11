@@ -7,6 +7,6 @@ cd ..
 git pull origin master
 cd bin
 ./update.sh
-git add .
+git add ..
 git commit -m "Automatic update $d."
 git push origin master
