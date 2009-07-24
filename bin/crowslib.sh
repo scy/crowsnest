@@ -15,7 +15,7 @@ http() {
 set_members() {
 	[ "$(echo "$*" | wc -l)" != '1' ] && retexit 99
 	[ "$(echo "$*" | tr -cd 0-9)" != "$*" ] && retexit 99
-	sed -ri -e "s/^Members\\t[0-9]+\$/Members\\t$1/" summary.txt || retexit 99
+	sed -ri -e "s/^Members\\t[0-9]*\$/Members\\t$1/" summary.txt || retexit 99
 }
 
 export -f http set_members
