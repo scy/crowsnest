@@ -6,8 +6,8 @@ http http://github.com/weizenspreu/crowsnest/raw/master/data/de/spd/lvs.txt > lv
 r="$?"
 alias retexit=exit
 
-# Don’t update on error.
-if [ "$r" -ne 0 ]; then
+# Don’t update on error or apparent misbehavior.
+if [ "$r" -ne 0 -o "$(wc -l lvs.txt.new)" -gt 30 ]; then
 	rm lvs.txt.new
 	exit "$r"
 fi
