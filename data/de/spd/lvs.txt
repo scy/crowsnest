@@ -1,20 +1,79 @@
-Schleswig-Holstein	12833	6856
-Mecklenburg-Vorpommern	1935	859
-Hamburg	6917	3607
-Bremen	3188	1641
-Nord-Niedersachsen	4506	1888
-Weser-Ems	12330	5233
-Hannover	21201	9093
-Braunschweig	8912	3675
-Sachsen-Anhalt	3014	1129
-Brandenburg	4689	1880
-Berlin	10594	5305
-Hessen-Nord	16442	5968
-Hessen-Süd	29232	11737
-Thüringen	3185	1200
-Sachsen	3204	1019
-Saar	14737	6864
-Baden-Württemberg	26668	12501
-Bayern	47494	21881
-Rheinland-Pfalz	30140	12587
-Nordrhein-Westfalen	91609	44953
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>GitHub - Server Error</title>
+    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header" class="basic">
+
+        <div class="site">
+          <div class="logo">
+            <a href="/"><img src="/images/modules/header/logov3.png" alt="git-hub" /></a>
+          </div>
+          <div class="actions">
+            <a href="/">home</a>
+            <a href="/login">login</a>
+            <a href="/signup">signup!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="site">
+        <div id="error" class="status500">
+          <img src="/images/error/octocat_sad.gif" alt="Octocat is sad" />
+          <div class="status500">
+            <h1>There was a problem serving the requested page.</h1>
+            <p>Now you're wondering, "what can I do about it!?!". Well...</p>
+            <ul>
+              <li>You can try refreshing the page, the problem may be temporary</li>
+              <li>If you entered the URL in by hand, double check that it is correct</li>
+              <li>We've been notified of the problem and will do our best to make sure it doesn't happen again!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="push"></div>
+    </div>
+
+    <div id="footer">
+      <div class="site">
+
+        <div class="info">
+          <div class="links">
+            <a href="http://github.com/blog/148-github-shirts-now-available">T-Shirts</a> |
+            <a href="http://github.com/blog">Blog</a> |
+            <a href="http://support.github.com/">Support</a> |
+            <a href="http://github.com/training">Git Training</a> |
+            <a href="http://github.com/contact">Contact</a> |
+            <a href="http://groups.google.com/group/github/">Google Group</a> |
+            <a href="http://github.wordpress.com">Status</a>
+          </div>
+          <div class="company">
+            GitHub is <a href="http://logicalawesome.com/">Logical Awesome</a> &copy;2009 | <a href="http://github.com/site/terms">Terms of Service</a> | <a href="http://github.com/site/privacy">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="sponsor">
+          <a href="http://engineyard.com"><img src="/images/modules/footer/ey-rubyhosting.png" alt="Engine Yard" /></a>
+          <div>Hosting provided by our<br /> partners at Engine Yard</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-3769691-2");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+
+  </body>
+</html>
